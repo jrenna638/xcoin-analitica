@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
-import '../styles/Home.css'; // Asegúrate de incluir el archivo CSS
+import '../styles/Home.css'; // Asegúrate de que el CSS está siendo importado correctamente
 
 function Home() {
     const navbarLinks = [
@@ -14,14 +14,13 @@ function Home() {
     return (
         <div className="Home-container">
             <Navbar links={navbarLinks} />
-            <iframe
-        title="Analitica-test2"
-        width="1140"
-        height="541.25"
-        src="https://app.powerbi.com/view?r=eyJrIjoiNDhkZDBkMTItNjBjZi00ZDRhLTg2ODItZDZiNzM2Y2JlODM2IiwidCI6IjFjZmQyZGRmLThjMjctNDljZi1hNzU2LWI5NWQ4YzhmZTc3MyJ9"
-        frameborder="0"
-        allowFullScreen="true"
-      ></iframe> 
+            <div className="powerbi-iframe-container">
+                <iframe
+                    title="Analitica-test2"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNDhkZDBkMTItNjBjZi00ZDRhLTg2ODItZDZiNzM2Y2JlODM2IiwidCI6IjFjZmQyZGRmLThjMjctNDljZi1hNzU2LWI5NWQ4YzhmZTc3MyJ9"
+                    allowFullScreen="true"
+                ></iframe>
+            </div>
             <Footer />
         </div>
     );
