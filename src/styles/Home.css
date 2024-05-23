@@ -9,7 +9,7 @@
 .powerbi-iframe-container {
   max-width: 100%; /* Limita el ancho máximo al 100% del contenedor padre */
   overflow: hidden; /* Oculta cualquier contenido que desborde el ancho del contenedor */
-  padding: 0 20px; /* Mantiene un poco de espacio a los lados si es necesario */
+   /* pasddin 0 10px Mantiene un poco de espacio a los lados si es necesario */
 }
 
 iframe {
