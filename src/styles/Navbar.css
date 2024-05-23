@@ -7,11 +7,14 @@
     color: white;
 }
 
+.navbar-logo img {
+    height: 50px; /* Altura del logo */
+    width: auto; /* Mantiene la proporción del logo */
+}
+
 .navbar-logo a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
+    display: flex;
+    align-items: center; /* Centra el logo verticalmente */
 }
 
 .navbar-links {
