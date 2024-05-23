@@ -15,14 +15,14 @@ function Home() {
         <div className="Home-container">
             <Navbar links={navbarLinks} />
             <div className="powerbi-iframe-container">
-                <iframe
-                    title="Power BI Report"
-                    width="1140"
-                    height="541.25"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiNDhkZDBkMTItNjBjZi00ZDRhLTg2ODItZDZiNzM2Y2JlODM2IiwidCI6IjFjZmQyZGRmLThjMjctNDljZi1hNzU2LWI5NWQ4YzhmZTc3MyJ9&pageName=9ee961e09605e1963126&navContentPaneEnabled=false"
+                <iframe title="XCoin-XWallet"
+                    width="600"
+                    height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNDhkZDBkMTItNjBjZi00ZDRhLTg2ODItZDZiNzM2Y2JlODM2IiwidCI6IjFjZmQyZGRmLThjMjctNDljZi1hNzU2LWI5NWQ4YzhmZTc3MyJ9&pageName=9ee961e09605e1963126"
                     frameborder="0"
-                    allowFullScreen="true"
-                ></iframe>
+                    allowFullScreen="true">
+
+                </iframe>
 
             </div>
             <Footer />
